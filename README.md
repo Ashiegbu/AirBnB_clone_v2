@@ -143,4 +143,5 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 
 ## AUTHORS
 **Chibuzo Ashiegbu**
+
 **Dokubo Madokuboba**
