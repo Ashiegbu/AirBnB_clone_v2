@@ -142,6 +142,6 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 <br>
 
 ## AUTHORS
-**Chibuzo Ashiegbu**
+**Chibuzo Ashiegbu** chibuch@gmail.com
 
 **Dokubo Madokuboba**
