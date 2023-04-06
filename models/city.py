@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""This is the city class"""
+"""This is the city class, inherits from BaseModel, Base
+"""
 from sqlalchemy.ext.declarative import declarative_base
 from models.base_model import BaseModel, Base
 from sqlalchemy import Column, Integer, String
@@ -13,6 +14,7 @@ class City(BaseModel, Base):
     Attributes:
         state_id: The state id
         name: input name
+        places: relationship
     """
     __tablename__ = "cities"
     name = Column(String(128), nullable=False)
