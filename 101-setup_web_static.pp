@@ -85,4 +85,3 @@ file { '/etc/nginx/sites-available/default':
 
 exec { 'nginx restart':
   path => '/etc/init.d/'
-}
