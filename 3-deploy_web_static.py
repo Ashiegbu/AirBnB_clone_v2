@@ -72,4 +72,4 @@ def deploy():
     file = do_pack()
     if file is None:
         return False
-    return do_deploy(file
+    return do_deploy(file)
