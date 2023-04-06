@@ -49,4 +49,4 @@ def do_deploy(archive_path):
         print("New version deployed!")
         return True
 
-    return False
+    return Fals
